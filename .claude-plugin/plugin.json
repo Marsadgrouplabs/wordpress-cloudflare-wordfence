@@ -1,0 +1,10 @@
+{
+  "name": "wordpress-cloudflare-wordfence",
+  "version": "1.0.0",
+  "description": "Connect a WordPress site to Cloudflare Free and harden it with Wordfence, the same way every time.",
+  "author": {
+    "name": "Marsad Labs",
+    "url": "https://labs.marsadgroup.co"
+  },
+  "homepage": "https://labs.marsadgroup.co"
+}

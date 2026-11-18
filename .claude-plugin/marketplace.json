@@ -1,0 +1,15 @@
+{
+  "name": "marsad-wordpress-cloudflare-wordfence",
+  "description": "Connect a WordPress site to Cloudflare Free and harden it with Wordfence, the same way every time.",
+  "owner": {
+    "name": "Marsad Labs",
+    "url": "https://labs.marsadgroup.co"
+  },
+  "plugins": [
+    {
+      "name": "wordpress-cloudflare-wordfence",
+      "source": "./",
+      "description": "Connect a WordPress site to Cloudflare Free and harden it with Wordfence, the same way every time."
+    }
+  ]
+}
