@@ -11,6 +11,7 @@ Detail lives in `references/`; read the file for the phase you are in, not all o
 ## Who does what
 
 - **Claude:** everything inside Cloudflare (Cloudflare API MCP first, Chrome as fallback), reading public DNS, curl tests, Wordfence settings through Chrome once the user is logged in to wp-admin.
+- **Official Cloudflare tools (not ours):** the Cloudflare API MCP (the `search` and `execute` tools, or the `plugin:cloudflare:cloudflare` plugin) and Cloudflare's own skills (Workers, Wrangler, Durable Objects, web performance) are published by Cloudflare. Setup: https://developers.cloudflare.com/agent-setup/prompt.md, skills: https://github.com/cloudflare/skills. We use them as they are and don't ship or change them.
 - **User:** logins and passwords, 2FA/verification codes, backups, changing Nameservers at the registrar, DNSSEC at the registrar, final functional tests (mail, forms, Elementor save).
 - Never type passwords. Ask before: Nameservers change, SSL Strict, any Wordfence change that could lock the user out, deleting files on the server.
 - Log every change as `old value -> new value` (goes into the site card, see `references/acceptance-and-report.md`).
